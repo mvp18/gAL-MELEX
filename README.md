@@ -6,7 +6,7 @@ Addressing Target Shift in Zero-shot Learning using Grouped Adversarial Learning
 
 Zero-shot learning (ZSL) algorithms typically work by exploiting attribute correlations to be able to make predictions in unseen classes. However, these correlations do not remain intact at test time in most practical settings and the resulting change in these correlations lead to adverse effects on zero-shot learning performance. In this paper, we present a new paradigm for ZSL that: (i) utilizes the class-attribute mapping of unseen classes to estimate the change in target distribution (target shift), and (ii) propose a novel technique called grouped Adversarial Learning (gAL) to reduce negative effects of this shift. Our approach is widely applicable for several existing ZSL algorithms, including those with implicit attribute predictions. We apply the proposed technique (gAL) on three popular ZSL algorithms: ALE, SJE, and DEVISE, and show performance improvements on 4 popular ZSL datasets: AwA2, aPY, CUB and SUN. We obtain SOTA results on SUN and aPY datasets and achieve comparable results on AwA2.
 
-<img src="proposed.png" style="width:200px; height:200px"/>
+<img src="proposed.png" style="width:400px; height:400px"/>
 
 #### Requirements and Setup
 
